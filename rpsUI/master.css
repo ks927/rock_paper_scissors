@@ -1,3 +1,23 @@
-div {
-    display: inline;
+body {
+    font-family: sans-serif;
 }
+
+#title {
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+ul div {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px dashed black;
+    text-align: center;
+    list-style-type: none;
+    padding: 50px;
+    font-size: 48px;
+}
+
